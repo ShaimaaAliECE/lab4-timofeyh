@@ -11,7 +11,7 @@ module.exports = {
     proxy: {
         '/': {
              target: 'http://localhost:8080',
-             router: () => 'http://localhost:3000',
+             router: () => 'http://localhost:80',
         }
      },
      historyApiFallback: {index: '/'},
